@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website Landing Page - with Background Video Slider | Travel</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <a href="#" class="brand">Travel-Guide</a>
+
+        <div class="menu-btn">
+
+        </div>
+
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Explorer</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="home">
+
+        <video class="video-slide" src="y2mate.com%20-%20CJ%20%20WHOOPTY%20Official%20Music%20Video_720p.mp4" autoplay muted loop>
+
+        </video>
+
+        <div class="content">
+            <h1>Thaproben.<br><span>Island</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum error, excepturi inventore itaque iure laudantium quam reprehenderit soluta unde voluptatem! Atque cum dolorum impedit in nesciunt praesentium sunt ut voluptatibus?</p>
+            <a href="#">Visit Us</a>
+        </div>
+
+        <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+    </section>
+
+    <script type="text/javascript">
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active")
+        })
+    </script>
+
+</body>
+</html>
